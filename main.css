@@ -1,0 +1,60 @@
+:root{
+    background-color: #7FB3D5;
+}
+
+h1{
+    color: black;
+}
+
+.center{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.container_button{
+    margin-top: 20px;
+    width: 500px;
+    
+}
+
+.grid_container{
+    margin-top: 0px;
+    width: 500px;
+    height: 500px;
+    border: solid 2px black;
+    background-color: white;
+    display: grid;
+}
+
+.grid_item {
+    background-color: wheat;
+}
+
+grid_item:hover {
+    background-color: red;
+}
+
+.red{
+    background-color: red;
+}
+
+#footer{
+    background-color: cornflowerblue;
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: auto;
+   
+}
+
+footer p{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 35px;
+    font-size: small;
+}
